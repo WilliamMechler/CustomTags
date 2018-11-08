@@ -28,7 +28,7 @@ Xheader.createdCallback = function() {
     m.innerText = this.getAttribute('main');
     m.className = 'header-main';
     
-    shadow.appendChild(p);
+    shadow.appendChild(m);
   
     //trying to add a break
     var br = document.createElement('hr');
@@ -39,7 +39,7 @@ Xheader.createdCallback = function() {
     s.innerText = this.getAttribute('sub');
     s.className = 'header-sub';
     
-    shadow.appendChild(p);
+    shadow.appendChild(s);
   
     
     // Create a link to the product.
