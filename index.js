@@ -35,7 +35,7 @@ Xheader.createdCallback = function() {
     shadow.appendChild(br);
   
    // adding sub text
-    var p = document.createElement('p');
+    var p = document.createElement('h3');
     p.innerText = this.getAttribute('sub');
     
     shadow.appendChild(p);
