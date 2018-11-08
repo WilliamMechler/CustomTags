@@ -26,17 +26,19 @@ Xheader.createdCallback = function() {
     // adding main text
     var p = document.createElement('h1');
     p.innerText = this.getAttribute('main');
+    p.className = 'header';
     
     shadow.appendChild(p);
   
     //trying to add a break
     var br = document.createElement('hr');
-    
+    br.className = 'header';
     shadow.appendChild(br);
   
    // adding sub text
     var p = document.createElement('h3');
     p.innerText = this.getAttribute('sub');
+    p.className = 'header';
     
     shadow.appendChild(p);
   
