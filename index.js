@@ -24,8 +24,9 @@ Xheader.createdCallback = function() {
     
   
     // adding main text
-    var p = document.createElement('h1');
-    p.innerText = this.getAttribute('main');
+    var m = document.createElement('h1');
+    m.innerText = this.getAttribute('main');
+    m.className = 'header-main';
     
     shadow.appendChild(p);
   
@@ -34,8 +35,9 @@ Xheader.createdCallback = function() {
     shadow.appendChild(br);
   
    // adding sub text
-    var p = document.createElement('h3');
-    p.innerText = this.getAttribute('sub');
+    var s = document.createElement('h3');
+    s.innerText = this.getAttribute('sub');
+    s.className = 'header-sub';
     
     shadow.appendChild(p);
   
