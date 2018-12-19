@@ -22,7 +22,13 @@ Xheader.createdCallback = function() {
      //   window.location = this.getAttribute('data-url');
    // });
     
-  
+    // adding div for background
+    
+    var bg = document.createElement('div');
+    bg.Backgroundimage = this.getAttribute('back');
+    
+    shadow.appendChild(bg);
+    
     // adding main text
     var m = document.createElement('h1');
     m.innerText = this.getAttribute('main');
