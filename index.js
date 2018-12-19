@@ -25,8 +25,10 @@ Xheader.createdCallback = function() {
     // adding div for background
     
     var bg = document.createElement('div');
-    bg.Backgroundimage = this.getAttribute('back');
+    var img = document.createElement('img');
+    img.src = this.getAttribute('back');
     
+    shadow.appendChild(img);
     shadow.appendChild(bg);
     
     // adding main text
